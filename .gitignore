@@ -1,0 +1,5 @@
+build/*.o
+build/*.a78
+*.swp
+*.bak
+.DS_Store
