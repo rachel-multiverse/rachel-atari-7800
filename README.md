@@ -73,10 +73,12 @@ RAM ($1800-$27FF): 4KB
 
 ## Protocol
 
-Uses RUBP (Rachel Universal Binary Protocol):
+Uses RUBP (Rachel Unified Binary Protocol):
 - 64-byte fixed-size messages
 - "RACH" magic header
 - Platform ID: 0x00D7 (Atari 7800)
+
+Full specification: [rachel-multiverse/protocol](https://github.com/rachel-multiverse/protocol) — also rendered at <https://rachel.stevehill.xyz/protocol>.
 
 ## License
 
