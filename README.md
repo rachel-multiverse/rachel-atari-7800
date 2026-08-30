@@ -2,6 +2,10 @@
 
 A Rachel card game client for the Atari 7800 ProSystem.
 
+> **Compatibility status:** display/gameplay prototype only. Networking is an
+> explicit stub, so this ROM cannot connect to the current server. No physical
+> adapter is claimed. See [HARDWARE.md](HARDWARE.md).
+
 ## Platform Details
 
 - **CPU**: 6502C @ 1.79 MHz
@@ -40,6 +44,10 @@ The Atari 7800 is an interesting hybrid:
 - Can display up to 100 sprites per scanline
 - 160x240 or 320x240 resolution modes
 - 25 colors from 256-color palette
+
+The normal controller ports are not being claimed as a serial interface. A
+practical network product should be cartridge-side hardware, with its register
+map designed alongside the cartridge mapper and additional RAM.
 
 ## Architecture
 
