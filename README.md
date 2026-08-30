@@ -29,6 +29,15 @@ make
 
 Output: `build/rachel.a78` (Atari 7800 ROM format)
 
+Launch it with the matching Emu198x core:
+
+```bash
+tools/run-emulator
+```
+
+Set `EMU198X_ROOT` if the Emu198x workspace is not at the usual sibling
+`Projects/198x/Emu198x/emu198x` path. Extra arguments are passed to the core.
+
 ## Controls
 
 - **Joystick Left/Right**: Move cursor

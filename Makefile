@@ -15,7 +15,7 @@ OBJECTS = build/main.o
 
 all: $(TARGET)
 
-build/main.o: src/main.asm src/equates.asm src/maria.asm src/display.asm \
+build/main.o: src/main.asm src/equates.asm src/maria.asm \
               src/input.asm src/game.asm src/rubp.asm src/net/serial.asm
 	@mkdir -p build
 	$(CA65) -o $@ $<

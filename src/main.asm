@@ -214,7 +214,6 @@ do_game:
 .endproc
 
 .include "maria.asm"
-.include "display.asm"
 .include "input.asm"
 .include "game.asm"
 .include "rubp.asm"
